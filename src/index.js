@@ -1,0 +1,9 @@
+import './css/style.css';
+import './js/character';
+import './js/__tests__/test';
+import './js/bowman';
+import './js/daemon';
+import './js/magician';
+import './js/swordsman';
+import './js/undead';
+import './js/zombie';
