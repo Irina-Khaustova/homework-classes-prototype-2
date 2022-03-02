@@ -1,6 +1,12 @@
 import './css/style.css';
 import './js/character';
-import './js/__tests__/test';
+import './js/__tests__/testBowman';
+import './js/__tests__/testCharacter';
+import './js/__tests__/testDaemon';
+import './js/__tests__/testMagician';
+import './js/__tests__/testSwordsman';
+import './js/__tests__/testUndead';
+import './js/__tests__/testZombie';
 import './js/bowman';
 import './js/daemon';
 import './js/magician';
