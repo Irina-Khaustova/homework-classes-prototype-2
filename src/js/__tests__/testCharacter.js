@@ -11,12 +11,12 @@ test('проверка выброса ошибки при присвоении �
 test('Проверка отработки ошибки в levelUp', () => {
   const ivan = new Character('Иван', 'Bowman');
   ivan.health = -10;
-  expect(() => ivan.levelUp().toThrow('it is impossible to raise the level of the deceased!'));
+  expect(() => ivan.levelUp()).toThrow();
 });
 test('Проверка отработки ошибки в levelUp 2', () => {
   const ivan = new Character('Иван', 'Bowman');
   ivan.health = 0;
-  expect(() => ivan.levelUp().toThrow('it is impossible to raise the level of the deceased!'));
+  expect(() => ivan.levelUp()).toThrow();
 });
 test('Проверка работы метода damage', () => {
   const received = new Character('Oleg', 'Bowman');
